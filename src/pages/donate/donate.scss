@@ -1,0 +1,86 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+
+.donate-main {
+
+  .image-row {
+    .donation {
+      border: 1px solid black;
+      //margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //flex: 1;
+      height: 100px;
+
+      img {
+        max-width: 300px;
+        max-height: 100px;
+        width: 100%;
+      }
+
+      &.patreon {
+        background-color: #f96854;
+      }
+
+      &.paypal {
+        background-color: #fff;
+      }
+    }
+  }
+
+  .support-level-wrapper {
+
+    .support-level-item {
+      display: inline-block;
+      border-radius: 5px;
+      margin: 3px;
+      padding: 3px 8px;
+      border: 1px solid $bg-2;
+      background-color: $color-hover;
+      color: black;
+      font-size: 14px;
+    }
+  }
+
+
+  .container2 {
+    background: whitesmoke;
+
+    .support-desc {
+      color: black !important;
+
+      a.security-image {
+        float: left;
+        margin-right: 20px;
+      }
+    }
+
+    .angel-fancy-wrapper {
+      //display: flex;
+
+      h6 {
+        color: black;
+        padding: 16px 0px;
+      }
+
+      & > div {
+        //flex: 1;
+        //padding: 8px;
+        //border: 2px solid transparent;
+
+        &:hover {
+
+          //border: 2px solid $bg-2
+        }
+      }
+
+      .angel {
+        //border-right: 2px solid $bg-2;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+{
+  "game_type_options": [
+    {
+      "label": "Online",
+      "value": "online"
+    },
+    {
+      "label": "Offline",
+      "value": "offline"
+    }
+  ]
+}

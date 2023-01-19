@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Games",
+    "links": "/admin/games"
+  },
+  {
+    "id": 2,
+    "name": "Levels",
+    "links": "/admin/levels"
+  },
+  {
+    "id": 3,
+    "name": "Users",
+    "links": "/admin/users"
+  }
+]

@@ -1,0 +1,23 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+
+.add-game-main {
+  background: $bg-4;
+  padding: 30px;
+
+  header button {
+    height: auto;
+    margin-top: auto;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  }
+
+  fieldset .form-control {
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: scroll;
+
+    * {
+      color: black;
+    }
+  }
+}

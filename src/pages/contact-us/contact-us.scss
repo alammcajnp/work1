@@ -1,0 +1,39 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+
+.contact-main {
+  section.contact-section {
+    margin-bottom: 30px;
+    &:first-child {
+    }
+
+    .rule-heading {
+      width: 100%;
+      //margin-top: 30px;
+      font-weight: bold;
+    }
+
+    .rule-text {
+      margin: 6px 0px;
+    }
+
+    .code-group {
+      margin: 8px 0;
+
+      .inner {
+        display: block;
+        padding: 4px 8px;
+        border: 1px solid $color-1;
+
+        p {
+          color: $bg-2
+        }
+
+        code {
+          display: block;
+        }
+      }
+    }
+  }
+
+}

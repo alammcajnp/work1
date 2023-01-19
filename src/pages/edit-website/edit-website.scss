@@ -1,0 +1,36 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+
+.edit-website-main {
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include min-container-height;
+
+    .link2 {
+      line-height: 145%;
+    }
+
+    .inner {
+      //margin-top: -40px;
+      max-width: 600px;
+      border: 2px solid white;
+      padding: 22px;
+
+      @include mobile {
+        max-width: 100%;
+        margin-top: 0px;
+      }
+    }
+
+    @include mobile {
+      height: auto;
+    }
+
+    @include tablet {
+      min-height: calc(57vh - 227px);
+    }
+  }
+
+}

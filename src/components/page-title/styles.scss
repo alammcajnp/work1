@@ -1,0 +1,15 @@
+@import "../../scss/_variables.scss";
+@import "../../scss/_mixin.scss";
+
+.page-title {
+    background: $bg-3;
+    border-bottom: 1px solid $color-main2;
+    @include mobile {
+        h3 {
+            font-size: 32px;
+            //padding-top: 16px;
+            //border-bottom: 1px solid $color-main2;
+            width: 100%;
+        }
+    }
+}

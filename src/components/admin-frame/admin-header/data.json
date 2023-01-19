@@ -1,0 +1,16 @@
+{
+  "headerMenuItems": [
+    {
+      "textInMenu": "Profile",
+      "textAfterSelection": "Profile",
+      "value": "Profile",
+      "visible": false
+    },
+    {
+      "textInMenu": "Logout",
+      "textAfterSelection": "Logout",
+      "value": "Logout",
+      "visible": true
+    }
+  ]
+}

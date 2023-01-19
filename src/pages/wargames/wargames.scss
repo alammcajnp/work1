@@ -1,0 +1,78 @@
+@import "../../scss/variables";
+@import "../../scss/mixin";
+
+.wargames-main {
+  //padding: 80px 0 0;
+
+  .page-title {
+    background: #141A31;
+    //padding: 108px 0 10px;
+  }
+
+  .side-bar-col {
+    background: #141A31;
+    border-right: 2px solid $bg-2;
+    @include min-container-height;
+  }
+
+  .wrap-about {
+    .box-text {
+      //margin-bottom: 24px;
+      background: $bg-4;
+    }
+    &.style2 {
+      .box-text {
+        //margin-bottom: 30px;
+
+      }
+    }
+
+  }
+
+  .back-link.link2 {
+    font-size: 15px;
+  }
+
+  .side-menu-item {
+    padding: 4px 0;
+    margin: 4px 0;
+
+    &:hover {
+      color: $bg-2;
+    }
+
+    &.active {
+      color: $bg-2;
+
+      @include mobile {
+        background: $color-1;
+        color: black;
+      }
+    }
+
+    @include mobile {
+      display: inline-block;
+      background: $bg-2;
+      margin-right: 8px;
+      color: black;
+      padding: 3px 6px;
+    }
+  }
+
+  .external-html {
+    h1 {
+      font-size: 28px;
+      margin: 8px 0;
+    }
+    h2 {
+      font-size: 24px;
+      margin: 8px 0;
+    }
+    pre {
+      background: #f2f2f2;
+      margin: 8px 0px;
+      padding: 20px;
+      border-radius: 6px;
+    }
+  }
+}

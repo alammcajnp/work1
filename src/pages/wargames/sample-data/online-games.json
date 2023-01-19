@@ -1,0 +1,89 @@
+{
+  "name": "Online",
+  "id": "online",
+  "games": [
+    {
+      "id": 1,
+      "slug": "Bandit",
+      "sshInfo": {
+        "host": "bandit.labs.overthewire.org",
+        "port": "2220"
+      },
+      "description": "<div id=\"content\">\n\n<h1 id=\"bandit\">Bandit</h1>\n\n<p>The Bandit wargame is aimed at absolute beginners. It will teach the\nbasics needed to be able to play other wargames. <strong>If you notice\nsomething essential is missing or have ideas for new levels, please let\nus know!</strong></p>\n\n<h2 id=\"note-for-beginners\">Note for beginners</h2>\n\n<p>This game, like most other games, is organised in levels. You start at\nLevel 0 and try to “beat” or “finish” it. Finishing a level results in\ninformation on how to start the next level. The pages on this website\nfor “Level &lt;X&gt;” contain information on how to start level X from the\nprevious level. E.g. The page for <a href=\"/wargames/bandit/bandit1.html\">Level 1</a> has information on how to\ngain access from <a href=\"/wargames/bandit/bandit0.html\">Level 0</a> to <a href=\"/wargames/bandit/bandit1.html\">Level 1</a>. All levels in this game\nhave a page on this website, and they are all linked to from the\nsidemenu on the left of this page.</p>\n\n<p>You will encounter many situations in which you have no idea what you\nare supposed to do. <strong>Don’t panic! Don’t give up!</strong> The purpose of this\ngame is for you to learn the basics. Part of learning the basics, is\nreading a lot of new information. If you’ve never used the command line\nbefore, a good first read is this <a href=\"https://man7.org/linux/man-pages/man1/intro.1.html\">introduction to user commands</a>.</p>\n\n<p>There are several things you can try when you are unsure how to\ncontinue:</p>\n\n<ul>\n  <li>First, if you know a command, but don’t know how to use it, try the\n<strong>manual</strong> (<a href=\"https://en.wikipedia.org/wiki/Man_page\">man page</a>) by entering <strong>man &lt;command&gt;</strong>.\nFor example, <strong>man ls</strong> to learn about the “ls” command.\nThe “man” command also has a manual, try it!\nWhen using <strong>man</strong>, press <code class=\"language-plaintext highlighter-rouge\">q</code> to quit\n(you can also use <code class=\"language-plaintext highlighter-rouge\">/</code> and <code class=\"language-plaintext highlighter-rouge\">n</code> and <code class=\"language-plaintext highlighter-rouge\">N</code> to search).</li>\n  <li>Second, if there is no man page, the command might be a <strong>shell\nbuilt-in</strong>. In that case use the “<strong>help &lt;X&gt;</strong>” command. E.g. help\ncd</li>\n  <li>Also, your favorite <strong>search-engine</strong> is your friend. Learn how to\nuse it! I recommend <a href=\"https://www.google.com\">Google</a>.</li>\n  <li>Lastly, if you are still stuck, you can <a href=\"#/contact\">join us via chat</a></li>\n</ul>\n\n<p>You’re ready to start! Begin with <a href=\"/wargames/bandit/bandit0.html\">Level 0</a>, linked at the left of\nthis page. Good luck!</p>\n\n<p><strong>Note for VMs:</strong> You may fail to connect to overthewire.org via SSH with a “<em>broken pipe error</em>” when the network adapter for the VM is configured to use NAT mode. Adding the setting <strong><code class=\"language-plaintext highlighter-rouge\">IPQoS throughput</code></strong> to <code class=\"language-plaintext highlighter-rouge\">/etc/ssh/ssh_config</code> should resolve the issue. If this does not solve your issue, the only option then is to change the adapter to Bridged mode.</p>\n\n\n</div>",
+      "levels": [
+        {
+          "id": 1,
+          "slug": "level0",
+          "text": "Level 0",
+          "description": "<div id=\"content\">\n\n<div id=\"title\"><h1>Bandit Level 0</h1></div>\n<script>renderLevelTitle(\"bandit\", 0);</script>\n\n<h2 id=\"level-goal\">Level Goal</h2>\n<p>The goal of this level is for you to log into the game using SSH.\nThe host to which you need to connect is\n<strong>bandit.labs.overthewire.org</strong>, on port 2220.\nThe username is <strong>bandit0</strong> and the password is <strong>bandit0</strong>. Once\nlogged in, go to the <a href=\"/wargames/bandit/bandit1.html\">Level 1</a> page to find out how to beat Level\n1.</p>\n\n<h2 id=\"commands-you-may-need-to-solve-this-level\">Commands you may need to solve this level</h2>\n<p><a href=\"https://man7.org/linux/man-pages/man1/ssh.1.html\">ssh</a></p>\n\n<h2 id=\"helpful-reading-material\">Helpful Reading Material</h2>\n<ul>\n  <li><a href=\"https://en.wikipedia.org/wiki/Secure_Shell\">Secure Shell (SSH) on Wikipedia</a></li>\n  <li><a href=\"https://www.wikihow.com/Use-SSH\">How to use SSH on wikiHow</a></li>\n</ul>\n\n\n</div>"
+        },
+        {
+          "id": 2,
+          "slug": "level1",
+          "text": "Level 1",
+          "description": "Bandit -> level 1 description"
+        },
+        {
+          "id": 3,
+          "slug": "level2",
+          "text": "Level 2",
+          "description": "Bandit -> level 2 description"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "Natas",
+      "description": "The Natas wargame is aimed at absolute beginners. It will teach the basics needed to be able to play other wargames. If you notice something essential is missing or have ideas for new levels, please let us know!",
+      "levels": [
+        {
+          "id": 1,
+          "slug": "level0",
+          "text": "Level 0",
+          "description": "Natas -> level 0 description"
+        },
+        {
+          "id": 2,
+          "slug": "level1",
+          "text": "Level 1",
+          "description": "Natas -> level 1 description"
+        },
+        {
+          "id": 3,
+          "slug": "level2",
+          "text": "Level 2",
+          "description": "Natas -> level 2 description"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "krypton",
+      "sshInfo": {
+        "host": "krypton.labs.overthewire.org",
+        "port": "2231"
+      },
+      "description": "The krypton wargame is aimed at absolute beginners. It will teach the basics needed to be able to play other wargames. If you notice something essential is missing or have ideas for new levels, please let us know!",
+      "levels": [
+        {
+          "id": 1,
+          "slug": "level0",
+          "text": "Level 0",
+          "description": "krypton-> level 0 description"
+        },
+        {
+          "id": 2,
+          "slug": "level1",
+          "text": "Level 1",
+          "description": "krypton-> level 1 description"
+        },
+        {
+          "id": 3,
+          "slug": "level2",
+          "text": "Level 2",
+          "description": "krypton-> level 2 description"
+        }
+      ]
+    }
+  ]
+}

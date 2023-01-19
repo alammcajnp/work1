@@ -1,0 +1,10 @@
+.form-input {
+  & > input {
+    color: white !important;
+  }
+
+  input[disabled] {
+    background: #424242;
+    cursor: not-allowed;
+  }
+}

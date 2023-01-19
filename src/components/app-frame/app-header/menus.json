@@ -1,0 +1,55 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Wargames",
+    "links": "/wargames"
+  },
+  {
+    "id": 2,
+    "name": "Information",
+    "namesub": [
+      {
+        "id": 1,
+        "sub": "Donate",
+        "links": "/donate"
+      },
+      {
+        "id": 6,
+        "sub": "Contact via chat",
+        "links": "/contact"
+      },
+      {
+        "id": 2,
+        "sub": "Edit Website",
+        "links": "/edit-website"
+      },
+      {
+        "id": 3,
+        "sub": "WeCall Scorboard",
+        "links": "/we-call"
+      },
+      {
+        "id": 4,
+        "sub": "Staff",
+        "links": "/staff"
+      },
+      {
+        "id": 5,
+        "sub": "Alumni",
+        "links": "/alumni"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Donate",
+    "links": "/donate"
+  },
+  {
+    "id": 4,
+    "name": "Help",
+    "links": "/contact"
+  }
+]
